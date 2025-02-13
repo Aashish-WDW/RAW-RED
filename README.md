@@ -1,5 +1,9 @@
 #Raw Red – Play. Learn. Dominate.
 
+
+https://github.com/user-attachments/assets/ce97a876-1a71-431b-b69f-c2e9987ae525
+
+
 🔥 Welcome to Raw Red – the ultimate battleground where gaming meets coding! Whether you're here to conquer virtual worlds or craft your own, Raw Red is built for warriors, dreamers, and creators.
 
 🎮 Game On – Immerse yourself in an electrifying library of interactive games. From heart-pounding action to mind-bending puzzles, every click pulls you deeper into an adrenaline-fueled universe.
