@@ -1,0 +1,87 @@
+{
+    "beginnerTopics": [
+      {
+        "title": "Introduction to HTML: The Language of the Web",
+        "content": "HTML, or Hypertext Markup Language, is the foundational language of the World Wide Web..."
+      },
+      {
+        "title": "HTML Elements and Structure: A Brief Overview",
+        "content": "HTML elements are enclosed in tags, such as <p> for paragraphs or <a> for links..."
+      },
+      {
+        "title": "Working with Links and Images",
+        "content": [
+          {
+            "type": "heading",
+            "text": "Links: Creating Hyperlinks"
+          },
+          {
+            "type": "paragraph",
+            "text": "Hyperlinks in HTML are created using the <a> tag, which stands for anchor..."
+          },
+          {
+            "type": "code",
+            "text": "<a href=\"https://www.example.com\">Visit Example Website</a>"
+          },
+          {
+            "type": "paragraph",
+            "text": "In this example, clicking 'Visit Example Website' will take the user to https://www.example.com."
+          },
+          {
+            "type": "heading",
+            "text": "Images: Embedding Graphics"
+          },
+          {
+            "type": "paragraph",
+            "text": "Images are embedded in HTML using the <img> tag. The src attribute is required to specify the path to the image file..."
+          },
+          {
+            "type": "code",
+            "text": "<img src=\"path/to/image.jpg\" alt=\"Description of the image\">"
+          },
+          {
+            "type": "paragraph",
+            "text": "The alt attribute is essential for accessibility and SEO, providing text that describes the image for users who cannot see it or when the image fails to load."
+          }
+        ]
+      },
+      {
+        "title": "Creating Forms in HTML",
+        "content": [
+          {
+            "type": "heading",
+            "text": "Form Basics: Using the <form> Tag"
+          },
+          {
+            "type": "paragraph",
+            "text": "Forms in HTML allow users to input data that can be submitted to a server for processing..."
+          },
+          {
+            "type": "code",
+            "text": "<form action=\"/submit-form\" method=\"POST\">\n  <!-- Form inputs go here -->\n</form>"
+          },
+          {
+            "type": "paragraph",
+            "text": "The action attribute specifies where to send the form data, and the method attribute defines how to send it (POST or GET)."
+          },
+          {
+            "type": "heading",
+            "text": "Form Inputs: Text Fields and Buttons"
+          },
+          {
+            "type": "paragraph",
+            "text": "Text fields allow users to enter text, and buttons are used to submit the form or reset fields."
+          },
+          {
+            "type": "code",
+            "text": "<input type=\"text\" name=\"username\" placeholder=\"Enter your username\">\n<button type=\"submit\">Submit</button>"
+          },
+          {
+            "type": "paragraph",
+            "text": "In this example, a text input field is created with a placeholder, and a submit button is used to submit the form."
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700&display=swap");
+
+.navbar {
+    height: 60px;
+    width: 90vw;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding-left: 1em;
+    padding-right: 1em;
+    box-sizing: border-box;
+    display: block;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.15),
+        0px 10px 10px rgba(255, 0, 0, 0.1);
+    border-radius: 9px;
+    position: relative;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: relative;
+    z-index: 2;
+    justify-content: space-between;
+}
+
+.logo {
+    text-transform: uppercase;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 300;
+    font-size: 16pt;
+}
+
+.logo a {
+    text-decoration: none;
+    color: red;
+}
+
+.links {
+    display: flex;
+    font-size: 12px;
+    gap: 40px;
+}
+
+.links h3{
+    
+    text-decoration: none;
+}
+
+.navLinks h3{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.navLinks:hover {
+    color: #ffd700;
+    /* Change color on hover */
+}

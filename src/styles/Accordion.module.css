@@ -1,0 +1,90 @@
+.accordion {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.main {
+    background-color: white;
+    min-height: 150vh;
+}
+
+.main h1 {
+    color: red;
+    font-family: "Courier";
+    padding-left: 80px;
+    padding-top: 20px;
+    padding-right: 80px;
+}
+
+.accor {
+    padding-left: 80px;
+    padding-top: 20px;
+    padding-right: 80px;
+    font-family: "Courier";
+
+}
+
+.accordionHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+}
+
+.accordionHeader:hover {
+    background-color: #e0e0e0;
+}
+
+.accordionContent {
+    padding: 10px;
+}
+
+.iconOpen {
+    transform: rotate(45deg);
+    transition: transform 0.3s ease;
+}
+
+.iconClosed {
+    transform: rotate(0);
+    transition: transform 0.3s ease;
+}
+
+.quiztxt {
+    padding-left: 80px;
+    padding-top: 20px;
+    font-family: "Courier";
+    color: #000000;
+}
+
+.comic-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff5252;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #000;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.comic-button:hover {
+    background-color: #fff;
+    color: #ff5252;
+    border: 2px solid #ff5252;
+    box-shadow: 5px 5px 0px #ff5252;
+}
+
+.comic-button:active {
+    background-color: #fcf414;
+    box-shadow: none;
+    transform: translateY(4px);
+}

@@ -1,0 +1,104 @@
+{
+    "moderateTopics": [
+      {
+        "title": "HTML Forms",
+        "content": [
+          {
+            "type": "heading",
+            "text": "Form Basics: Using the <form> Tag"
+          },
+          {
+            "type": "paragraph",
+            "text": "Forms in HTML allow users to input data that can be submitted to a server for processing..."
+          },
+          {
+            "type": "code",
+            "text": "<form action=\"/submit-form\" method=\"POST\">\n  <!-- Form inputs go here -->\n</form>"
+          },
+          {
+            "type": "paragraph",
+            "text": "The action attribute specifies where to send the form data, and the method attribute defines how to send it (POST or GET)."
+          },
+          {
+            "type": "heading",
+            "text": "Form Inputs: Text Fields and Buttons"
+          },
+          {
+            "type": "paragraph",
+            "text": "Text fields allow users to enter text, and buttons are used to submit the form or reset fields."
+          },
+          {
+            "type": "code",
+            "text": "<input type=\"text\" name=\"username\" placeholder=\"Enter your username\">\n<button type=\"submit\">Submit</button>"
+          },
+          {
+            "type": "paragraph",
+            "text": "In this example, a text input field is created with a placeholder, and a submit button is used to submit the form."
+          }
+        ]
+      },
+      {
+        "title": "HTML Tables",
+        "content": [
+          {
+            "type": "heading",
+            "text": "Creating Tables: Using the <table> Tag"
+          },
+          {
+            "type": "paragraph",
+            "text": "Tables in HTML are created using the <table> tag, with rows defined by <tr> and cells by <td> or <th>."
+          },
+          {
+            "type": "code",
+            "text": "<table>\n  <tr>\n    <th>Name</th>\n    <th>Age</th>\n  </tr>\n  <tr>\n    <td>John</td>\n    <td>25</td>\n  </tr>\n</table>"
+          },
+          {
+            "type": "paragraph",
+            "text": "This example creates a simple table with headers 'Name' and 'Age' and one row of data."
+          },
+          {
+            "type": "heading",
+            "text": "Table Attributes and Structure"
+          },
+          {
+            "type": "paragraph",
+            "text": "Tables can have attributes like cellpadding, cellspacing, and border to control spacing and appearance."
+          },
+          {
+            "type": "code",
+            "text": "<table cellpadding=\"5\" cellspacing=\"0\" border=\"1\">\n  <!-- Table content -->\n</table>"
+          }
+        ]
+      },
+      {
+        "title": "HTML Semantic Elements",
+        "content": [
+          {
+            "type": "heading",
+            "text": "Semantic HTML: Meaningful Tags"
+          },
+          {
+            "type": "paragraph",
+            "text": "Semantic elements provide meaning to the content they enclose, aiding accessibility and SEO."
+          },
+          {
+            "type": "code",
+            "text": "<header>, <nav>, <section>, <article>, <aside>, <footer>, <main>, <figure>, <figcaption>"
+          },
+          {
+            "type": "paragraph",
+            "text": "These tags help structure content semantically, improving how search engines index and display your web pages."
+          },
+          {
+            "type": "heading",
+            "text": "Benefits of Semantic HTML"
+          },
+          {
+            "type": "paragraph",
+            "text": "Using semantic elements enhances website accessibility for users with disabilities and improves search engine ranking."
+          }
+        ]
+      }
+    ]
+  }
+  

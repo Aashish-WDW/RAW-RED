@@ -1,0 +1,17 @@
+.container {
+  background: #202028;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 2em;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tetrisCanvas {
+  border: solid 0.2em #fff;
+  height: 90vh;
+}

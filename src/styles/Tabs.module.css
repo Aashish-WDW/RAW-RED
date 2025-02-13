@@ -1,0 +1,49 @@
+.tabsContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main{
+    font-family: "Courier";
+    color: #000000;
+}
+
+.tabButtons {
+    display: flex;
+}
+
+.tabButton {
+    padding: 12px 24px;
+    font-family: "Courier";
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 50px;
+    outline: none;
+    margin-right: 10px;
+}
+
+.tabButton:hover {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.tabButton.active {
+    background-color: #0070f3;
+    color: white;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.tabContent {
+    margin-top: 20px;
+}
+
+.h1{
+    font-size: 40px;
+}

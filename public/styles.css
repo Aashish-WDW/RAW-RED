@@ -1,0 +1,94 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#score {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 2em;
+    font-weight: 900;
+}
+
+#introduction {
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    font-weight: 600;
+    font-size: 0.8em;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    transition: opacity 2s;
+}
+
+#restart {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    border-radius: 50%;
+    color: white;
+    background-color: red;
+    border: none;
+    font-weight: 700;
+    font-size: 1.2em;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    display: none;
+    cursor: pointer;
+}
+
+#perfect {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+/* Add your existing styles here */
+
+#no-lives-message {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#game-over-message button,
+#no-lives-message button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#game-over-message button:hover,
+#no-lives-message button:hover {
+    background-color: #45a049;
+}
+#game-over-message {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
